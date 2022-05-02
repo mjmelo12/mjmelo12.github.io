@@ -19,7 +19,7 @@ var information = [{'Company Name': '4 Ever Life Insurance Company', 'phone': '8
                     {'Company Name': 'Aetna Life Insurance Company', 'phone': '800-872-3862', 'website': 'www.aetna.com',},
                     {'Company Name': 'American General Life Insurance Co.', 'phone': '800-763-8851', 'website': 'www.aig.com',},
                     {'Company Name': 'American National Insurance Company', 'phone': '800-899-6503', 'website': 'www.anico.com',},
-                    {'Company Name': 'American National Insurance Company', 'phone': '800-899-6503', 'website': 'www.anico.com',},
+                    {'Company Name': 'American National Insurance Company of Texas', 'phone': '800-899-6503', 'website': 'www.anico.com',},
                     {'Company Name': 'American National Insurance Company', 'phone': '800-899-6503', 'website': 'www.anico.com',},
                     {'Company Name': 'American National Insurance Company', 'phone': '800-899-6503', 'website': 'www.anico.com',},
                     {'Company Name': 'American National Insurance Company', 'phone': '800-899-6503', 'website': 'www.anico.com',},
