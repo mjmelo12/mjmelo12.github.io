@@ -20,9 +20,9 @@ var information = [{'Company Name': '4 Ever Life Insurance Company', 'phone': '8
                     {'Company Name': 'American General Life Insurance Co.', 'phone': '800-763-8851', 'website': 'www.aig.com',},
                     {'Company Name': 'American National Insurance Company', 'phone': '800-899-6503', 'website': 'www.anico.com',},
                     {'Company Name': 'American National Insurance Company of Texas', 'phone': '800-899-6503', 'website': 'www.anico.com',},
-                    {'Company Name': 'American National Insurance Company', 'phone': '800-899-6503', 'website': 'www.anico.com',},
-                    {'Company Name': 'American National Insurance Company', 'phone': '800-899-6503', 'website': 'www.anico.com',},
-                    {'Company Name': 'American National Insurance Company', 'phone': '800-899-6503', 'website': 'www.anico.com',},
+                    {'Company Name': 'American States Insurance Company', 'phone': '888-398-8924', 'website': 'www.libertymutual.com',},
+                    {'Company Name': 'Anthem Blue Cross Life and Health Insurance Company', 'phone': '877-875-1223', 'website': 'www.anthem.com',},
+                    {'Company Name': 'AXA Equitable Life Insurance Company', 'phone': '888-292-4636', 'website': 'www.equitable.com',},
                     ];
 
 // Sorting array by rank order
