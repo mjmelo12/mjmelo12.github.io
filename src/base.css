@@ -10,7 +10,7 @@ body {
 }
 
 h1, h2 {
-  text-align: left;
+  text-align: right;
 }
 
 h1 {
@@ -21,7 +21,7 @@ h2 {
   color: #555;
 }
 
-nav#menu {
+.nav#menu {
   margin-top: 50px;
   background: #3498db;
   text-align: center;
@@ -29,7 +29,7 @@ nav#menu {
   width: 100%;
 }
 
-nav#menu ul {
+.nav#menu ul {
   padding: 0;
   background: white;
   margin: 0 auto;
