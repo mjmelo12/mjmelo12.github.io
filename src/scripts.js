@@ -3,7 +3,7 @@
 
 var menu = $('nav#menu');
 
-var watcher = scrollMonitor.create( menu );
+// Take this out: var watcher = scrollMonitor.create( menu );
 
 watcher.lock();
 
