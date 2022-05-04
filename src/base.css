@@ -3,6 +3,16 @@
 
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
+/* Header*/
+
+.text-primary {
+  color: #FF4800 !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
 body {
   height: 2000px;
   font-family: Roboto, sans-serif;
