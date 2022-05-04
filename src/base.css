@@ -13,6 +13,48 @@
   margin-bottom: 1.5rem !important;
 }
 
+.text-white {
+  color: #fff !important;
+}
+
+.display-3 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.mb-5{
+  margin-bottom: 3rem !important;
+}
+
+
+.mx-auto {
+  margin-right: auto !important;
+}
+
+.input-group {
+    width: auto;
+}
+
+.border-light {
+  border-color: #FFFFFF !important;
+}
+
+.input-group-append .btn {
+  position: relative;
+  z-index: 2;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #FF4800;
+  border-color: #FF4800;
+}
+
+.px-3 {
+  padding-right: 1rem !important;
+}
+
 body {
   height: 2000px;
   font-family: Roboto, sans-serif;
