@@ -55,24 +55,6 @@
   padding-right: 1rem !important;
 }
 
-body {
-  height: 2000px;
-  font-family: Roboto, sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
-
-h1, h2 {
-  text-align: center;
-}
-
-h1 {
-  color: #222;
-}
-
-h2 {
-  color: #555;
-}
-
 nav#menu {
   margin-top: 50px;
   background: #3498db;
