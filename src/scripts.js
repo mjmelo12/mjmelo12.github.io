@@ -17,23 +17,41 @@ var menu = $('nav#menu');
 $('#show-california').click(function () {
     $('#california').show();
     $('#nevada').hide();
-    $('#oregon').show();    
+    $('#oregon').hide();
+    $('#arizona').hide();
+    $('#utah').hide();
 });
 
 $('#show-nevada').click(function () {
     $('#nevada').show();
+    $('#california').hide();
+    $('#oregon').hide();
+    $('#arizona').hide();
+    $('#utah').hide();
 });
 
 $('#show-arizona').click(function () {
     $('#arizona').show();
+    $('#nevada').hide();
+    $('#oregon').hide();
+    $('#california').hide();
+    $('#utah').hide();
 });
 
 $('#show-oregon').click(function () {
     $('#oregon').show();
+    $('#nevada').hide();
+    $('#california').hide();
+    $('#arizona').hide();
+    $('#utah').hide();
 });
 
 $('#show-utah').click(function () {
     $('#utah').show();
+    $('#nevada').hide();
+    $('#oregon').hide();
+    $('#arizona').hide();
+    $('#california').hide();
 });
 
 let caMap, nvMap, arMap, orMap, utMap;
