@@ -34,7 +34,7 @@ $('#show-utah').click(function () {
     $('#utah').show();
 });
 
-let map;
+let caMap, nvMap, arMap, orMap, utMap;
 
 function initMap() {
   caMap = new google.maps.Map(document.getElementById("ca-map"), {
