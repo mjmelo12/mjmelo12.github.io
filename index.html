@@ -35,11 +35,11 @@
       <div class="mx-auto" style="width: 100%; max-width: 600px;">
         <div class="input-group">
           <div class="input-group-append">
-            <button class="btn btn-primary px-3">California</button>
-            <button class="btn btn-primary px-3">Nevada</button>
-            <button class="btn btn-primary px-3">Arizona</button>
-            <button class="btn btn-primary px-3">Oregon</button>
-            <button class="btn btn-primary px-3">Utah</button>
+            <button id = "show-california" class="btn btn-primary px-3">California</button>
+            <button id = "show-nevada" class="btn btn-primary px-3">Nevada</button>
+            <button id = "show-arizona" class="btn btn-primary px-3">Arizona</button>
+            <button id = "show-oregon" class="btn btn-primary px-3">Oregon</button>
+            <button id = "show-utah" class="btn btn-primary px-3">Utah</button>
           </div>
         </div>
       </div>
@@ -47,11 +47,12 @@
   </div>
   <!-- Header End -->
   
-  <!-- Map Start -->
-  <div id="map" style="border:2px solid black; border-radius:4px; width: 1000px; height:500px;" class="center"></div>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"></script>
-  
-  <!-- Map End -->
+  <!-- California Map Start -->
+  <div id="california" style="display: none;">
+    <div id="map" style="border:2px solid black; border-radius:4px; width: 1000px; height:500px;" class="center"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"></script>
+  </div>
+  <!-- California Map End -->
   <script src="src/scripts.js"></script>
 
 </body>
