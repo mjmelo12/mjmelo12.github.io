@@ -14,6 +14,10 @@ var menu = $('nav#menu');
 
 // Google Maps
 
+$('#show-california').click(function () {
+    $('#california').show();
+});
+
 let map;
 
 function initMap() {
