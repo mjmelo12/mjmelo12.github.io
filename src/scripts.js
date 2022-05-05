@@ -12,6 +12,20 @@ var menu = $('nav#menu');
 // });
 
 
+// Google Maps
+
+let map;
+
+function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: -34.397, lng: 150.644 },
+    zoom: 8,
+  });
+}
+
+window.initMap = initMap;
+
+
 //JAVASCRIPT DATABASE TO InsuranceCompanies.HTML TABLE 
 // Creating an array of objects for List of Insurance Companies: Table
 
@@ -33,15 +47,4 @@ information.forEach(function (item, index) {
   $('#data-table tr:last').after('<tr><td>' + item['Company Name'] + '</td><td>' + item['phone'] + '</td><td>' + item['website'] + '</td></tr>');
 });
 
-// Google Maps
 
-let map;
-
-function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: -34.397, lng: 150.644 },
-    zoom: 8,
-  });
-}
-
-window.initMap = initMap;
