@@ -173,6 +173,14 @@
 .px-lg-5 {
     padding-right: 3rem !important;
 }
+
+select.form-control[size], select.form-control[multiple] {
+  height: auto;
+}
+
+textarea.form-control {
+  height: auto;
+}
 /* Nav End */
 
 nav#menu {
