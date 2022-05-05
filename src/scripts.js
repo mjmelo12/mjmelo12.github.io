@@ -18,6 +18,22 @@ $('#show-california').click(function () {
     $('#california').show();
 });
 
+$('#show-nevada').click(function () {
+    $('#nevada').show();
+});
+
+$('#show-arizona').click(function () {
+    $('#arizona').show();
+});
+
+$('#show-oregon').click(function () {
+    $('#oregon').show();
+});
+
+$('#show-utah').click(function () {
+    $('#utah').show();
+});
+
 let map;
 
 function initMap() {
