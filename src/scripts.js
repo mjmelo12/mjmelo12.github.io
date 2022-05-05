@@ -37,23 +37,23 @@ $('#show-utah').click(function () {
 let map;
 
 function initMap() {
-  ca-map = new google.maps.Map(document.getElementById("ca-map"), {
+  caMap = new google.maps.Map(document.getElementById("ca-map"), {
     center: { lat: 34.0967, lng: -117.179 },
     zoom: 7,
   });
-  nv-map = new google.maps.Map(document.getElementById("nv-map"), {
+  nvMap = new google.maps.Map(document.getElementById("nv-map"), {
     center: { lat: -20.0967, lng: 117.179 },
     zoom: 7,
   });
-  ar-map = new google.maps.Map(document.getElementById("ar-map"), {
+  arMap = new google.maps.Map(document.getElementById("ar-map"), {
     center: { lat: 10.0967, lng: -120.179 },
     zoom: 7,
   });
-  or-map = new google.maps.Map(document.getElementById("or-map"), {
+  orMap = new google.maps.Map(document.getElementById("or-map"), {
     center: { lat: 5.0967, lng: 117.179 },
     zoom: 7,
   });
-  ut-map = new google.maps.Map(document.getElementById("ut-map"), {
+  utMap = new google.maps.Map(document.getElementById("ut-map"), {
     center: { lat: 11.0967, lng: -117.179 },
     zoom: 7,
   });
