@@ -16,6 +16,8 @@ var menu = $('nav#menu');
 
 $('#show-california').click(function () {
     $('#california').show();
+    $('#nevada').hide();
+    $('#oregon').show();    
 });
 
 $('#show-nevada').click(function () {
