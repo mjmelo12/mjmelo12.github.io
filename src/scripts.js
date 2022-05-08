@@ -93,6 +93,19 @@ var information = [{'Company Name': '4 Ever Life Insurance Company', 'phone': '8
                     {'Company Name': 'American States Insurance Company', 'phone': '888-398-8924', 'website': 'www.libertymutual.com'},
                     {'Company Name': 'Anthem Blue Cross Life and Health Insurance Company', 'phone': '877-875-1223', 'website': 'www.anthem.com'},
                     {'Company Name': 'AXA Equitable Life Insurance Company', 'phone': '888-292-4636', 'website': 'www.equitable.com'},
+                    {'Company Name': 'Blue Shield of California Life and Health Insurance Company', 'phone': '800-393-6130', 'website': 'www.blueshieldca.com'},
+                    {'Company Name': 'CIGNA Health and Life Insurance Company', 'phone': '800-244-6244', 'website': 'www.cigna.com'},
+                    {'Company Name': 'Cincinnati Life Insurance Company', 'phone': '800-783-4479', 'website': 'www.cinfin.com'},
+                    {'Company Name': 'Connecticut General Life Insurance Company', 'phone': '800-244-6224', 'website': 'www.cigna.com'},
+                   {'Company Name': 'Delaware American Life Insurance Company', 'phone': '800-638-5433', 'website': 'www.metlife.com'},
+                   {'Company Name': 'Golden Rule Insurance Company', 'phone': '800-657-8205', 'website': 'www.uhone.com'},
+                   {'Company Name': 'Guardian Life Insurance Company of America', 'phone': '888-482-7342', 'website': 'www.guardianlife.com'},
+                   {'Company Name': 'Health Net Life Insurance Company', 'phone': '800-522-0088', 'website': 'www.healthnet.com'},
+                   {'Company Name': 'John Hancock Life Insurance Company (U.S.A.)', 'phone': '800-377-7311', 'website': 'www.johnhancock.com'},
+                   {'Company Name': 'Kaiser Permanente Insurance Company', 'phone': '888-503-0055', 'website': 'www.kp.org'},
+                   {'Company Name': 'Liberty Mutual Insurance Company', 'phone': '888-398-8924', 'website': 'www.libertymutual.com'},
+                   {'Company Name': 'Metropolitan Life Insurance Company', 'phone': '800-638-5433', 'website': 'www.metlife.com'},
+                   {'Company Name': 'Mony Life Insurance Company', 'phone': '800-268-1000', 'website': 'www.protective.com'},
                     ];
 
 // Sorting array by rank order
