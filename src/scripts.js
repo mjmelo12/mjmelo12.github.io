@@ -106,6 +106,20 @@ var information = [{'Company Name': '4 Ever Life Insurance Company', 'phone': '8
                    {'Company Name': 'Liberty Mutual Insurance Company', 'phone': '888-398-8924', 'website': 'www.libertymutual.com'},
                    {'Company Name': 'Metropolitan Life Insurance Company', 'phone': '800-638-5433', 'website': 'www.metlife.com'},
                    {'Company Name': 'Mony Life Insurance Company', 'phone': '800-268-1000', 'website': 'www.protective.com'},
+                   {'Company Name': 'Mutual of Omaha Insurance Company', 'phone': '800-775-6000', 'website': 'www.mutualofomaha.com'},
+                   {'Company Name': 'National Benefit Life Insurance Company', 'phone': '800-222-2062', 'website': 'www.nationalbenefitlife.com'},
+                   {'Company Name': 'National Foundation Life Insurance Company of America', 'phone': '800-221-9039', 'website': 'www.myushg.com'},
+                   {'Company Name': 'National Health Insurance Company', 'phone': '888-781-0585', 'website': 'www.natgenhealth.com'},
+                   {'Company Name': 'Nippon Life Insurance Company of America', 'phone': '800-374-1835', 'website': 'www.nipponlifebenefits.com'},
+                   {'Company Name': 'Sierra Health And Life Insurance Company, Inc.', 'phone': '800-888-2264', 'website': 'www.uhc.com'},
+                   {'Company Name': 'State Farm Mutual Automobile Insurance Company', 'phone': '800-782-8332', 'website': 'www.statefarm.com'},
+                   {'Company Name': 'Sutter Health and Aetna Insurance Company', 'phone': '888-600-7834', 'website': 'www.sutterhealthaetna.com'},
+                   {'Company Name': "Teacher's Insurance and Annuity Association of America", 'phone': '800-842-2733', 'website': 'www.tiaa.org'},
+                   {'Company Name': 'Thrivent Financial for Lutherans', 'phone': '800-847-4836', 'website': 'www.transamerica.com'},
+                   {'Company Name': 'Transamerica Life Insurance Company', 'phone': '800-625-4212', 'website': 'www.transamerica.com'},
+                   {'Company Name': 'Trustmark Insurance Company', 'phone': '800-666-6977', 'website': 'www.trustmarkbenefits.com'},
+                   {'Company Name': 'United HealthCare Insurance Company', 'phone': '877-294-1429', 'website': 'www.uhc.com'},
+                   {'Company Name': 'United States Life Insurance Company in the City of New York', 'phone': '800-763-8851', 'website': 'www.aig.com'},
                     ];
 
 // Sorting array by rank order
