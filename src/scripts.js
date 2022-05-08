@@ -114,7 +114,7 @@ var information = [{'Company Name': '4 Ever Life Insurance Company', 'phone': '8
                    {'Company Name': 'Sierra Health And Life Insurance Company, Inc.', 'phone': '800-888-2264', 'website': 'www.uhc.com'},
                    {'Company Name': 'State Farm Mutual Automobile Insurance Company', 'phone': '800-782-8332', 'website': 'www.statefarm.com'},
                    {'Company Name': 'Sutter Health and Aetna Insurance Company', 'phone': '888-600-7834', 'website': 'www.sutterhealthaetna.com'},
-                   {'Company Name': "Teacher's Insurance and Annuity Association of America", 'phone': '800-842-2733', 'website': 'www.tiaa.org'},
+                   {'Company Name': 'Teachers Insurance and Annuity Association of America', 'phone': '800-842-2733', 'website': 'www.tiaa.org'},
                    {'Company Name': 'Thrivent Financial for Lutherans', 'phone': '800-847-4836', 'website': 'www.transamerica.com'},
                    {'Company Name': 'Transamerica Life Insurance Company', 'phone': '800-625-4212', 'website': 'www.transamerica.com'},
                    {'Company Name': 'Trustmark Insurance Company', 'phone': '800-666-6977', 'website': 'www.trustmarkbenefits.com'},
