@@ -126,7 +126,7 @@ let caMap, nvMap, arMap, orMap, utMap, arkMap, coMap, moMap, okMap;
 
 function initMap() {
   caMap = new google.maps.Map(document.getElementById("caMap"), {
-    center: { lat: 34.0967, lng: -117.179 },
+    center: { lat: 36.778, lng: -119.417 },
     zoom: 7,
   });
   nvMap = new google.maps.Map(document.getElementById("nvMap"), {
