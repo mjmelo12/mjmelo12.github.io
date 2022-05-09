@@ -122,7 +122,7 @@ $('#show-oklahoma').click(function () {
     $('#oklahoma').show();
 });
 
-let caMap, nvMap, arMap, orMap, utMap, arMap, coMap, moMap, okMap;
+let caMap, nvMap, arMap, orMap, utMap, arkMap, coMap, moMap, okMap;
 
 function initMap() {
   caMap = new google.maps.Map(document.getElementById("caMap"), {
@@ -145,7 +145,7 @@ function initMap() {
     center: { lat: 11.0967, lng: -117.179 },
     zoom: 7,
   });
-  arMap = new google.maps.Map(document.getElementById("arMap"), {
+  arkMap = new google.maps.Map(document.getElementById("arMap"), {
     center: { lat: 11.0967, lng: -117.179 },
     zoom: 7,
   });
