@@ -145,7 +145,7 @@ function initMap() {
     center: { lat: 39.321, lng: -111.093 },
     zoom: 7,
   });
-  arkMap = new google.maps.Map(document.getElementById("arMap"), {
+  arkMap = new google.maps.Map(document.getElementById("arkMap"), {
     center: { lat: 35.201, lng: -91.831 },
     zoom: 7,
   });
