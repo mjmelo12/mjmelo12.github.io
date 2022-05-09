@@ -130,7 +130,7 @@ function initMap() {
     zoom: 7,
   });
   nvMap = new google.maps.Map(document.getElementById("nvMap"), {
-    center: { lat: 38.802, lng: -1176.419 },
+    center: { lat: 38.802, lng: -117.419 },
     zoom: 7,
   });
   arMap = new google.maps.Map(document.getElementById("arMap"), {
