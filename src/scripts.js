@@ -130,35 +130,35 @@ function initMap() {
     zoom: 7,
   });
   nvMap = new google.maps.Map(document.getElementById("nvMap"), {
-    center: { lat: -20.0967, lng: 117.179 },
+    center: { lat: 38.802, lng: -1176.419 },
     zoom: 7,
   });
   arMap = new google.maps.Map(document.getElementById("arMap"), {
-    center: { lat: 10.0967, lng: -120.179 },
+    center: { lat: 34.048, lng: -111.093 },
     zoom: 7,
   });
   orMap = new google.maps.Map(document.getElementById("orMap"), {
-    center: { lat: 5.0967, lng: 117.179 },
+    center: { lat: 46.804, lng: -120.554 },
     zoom: 7,
   });
   utMap = new google.maps.Map(document.getElementById("utMap"), {
-    center: { lat: 11.0967, lng: -117.179 },
+    center: { lat: 39.321, lng: -117.179 },
     zoom: 7,
   });
   arkMap = new google.maps.Map(document.getElementById("arMap"), {
-    center: { lat: 11.0967, lng: -117.179 },
+    center: { lat: 11.0967, lng: -111.093 },
     zoom: 7,
   });
   coMap = new google.maps.Map(document.getElementById("coMap"), {
-    center: { lat: 11.0967, lng: -117.179 },
+    center: { lat: 39.550, lng: -105.782 },
     zoom: 7,
   });
   moMap = new google.maps.Map(document.getElementById("moMap"), {
-    center: { lat: 11.0967, lng: -117.179 },
+    center: { lat: 46.879, lng: -110.362 },
     zoom: 7,
   });
   okMap = new google.maps.Map(document.getElementById("okMap"), {
-    center: { lat: 11.0967, lng: -117.179 },
+    center: { lat: 35.467, lng: -97.516 },
     zoom: 7,
   });
 }
