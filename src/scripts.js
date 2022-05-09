@@ -142,11 +142,11 @@ function initMap() {
     zoom: 7,
   });
   utMap = new google.maps.Map(document.getElementById("utMap"), {
-    center: { lat: 39.321, lng: -117.179 },
+    center: { lat: 39.321, lng: -111.093 },
     zoom: 7,
   });
   arkMap = new google.maps.Map(document.getElementById("arMap"), {
-    center: { lat: 11.0967, lng: -111.093 },
+    center: { lat: 35.201, lng: -91.831 },
     zoom: 7,
   });
   coMap = new google.maps.Map(document.getElementById("coMap"), {
