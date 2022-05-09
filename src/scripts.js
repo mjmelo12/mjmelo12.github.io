@@ -20,6 +20,10 @@ $('#show-california').click(function () {
     $('#oregon').hide();
     $('#arizona').hide();
     $('#utah').hide();
+    $('#arkansas').hide();
+    $('#colorado').hide();
+    $('#montana').hide();
+    $('#oklahoma').hide();
 });
 
 $('#show-nevada').click(function () {
@@ -28,6 +32,10 @@ $('#show-nevada').click(function () {
     $('#oregon').hide();
     $('#arizona').hide();
     $('#utah').hide();
+    $('#arkansas').hide();
+    $('#colorado').hide();
+    $('#montana').hide();
+    $('#oklahoma').hide();
 });
 
 $('#show-arizona').click(function () {
@@ -36,6 +44,10 @@ $('#show-arizona').click(function () {
     $('#oregon').hide();
     $('#california').hide();
     $('#utah').hide();
+    $('#arkansas').hide();
+    $('#colorado').hide();
+    $('#montana').hide();
+    $('#oklahoma').hide();
 });
 
 $('#show-oregon').click(function () {
@@ -44,6 +56,10 @@ $('#show-oregon').click(function () {
     $('#california').hide();
     $('#arizona').hide();
     $('#utah').hide();
+    $('#arkansas').hide();
+    $('#colorado').hide();
+    $('#montana').hide();
+    $('#oklahoma').hide();
 });
 
 $('#show-utah').click(function () {
@@ -52,9 +68,61 @@ $('#show-utah').click(function () {
     $('#oregon').hide();
     $('#arizona').hide();
     $('#california').hide();
+    $('#arkansas').hide();
+    $('#colorado').hide();
+    $('#montana').hide();
+    $('#oklahoma').hide();
 });
 
-let caMap, nvMap, arMap, orMap, utMap;
+$('#show-arkansas').click(function () {
+    $('#utah').hide();
+    $('#nevada').hide();
+    $('#oregon').hide();
+    $('#arizona').hide();
+    $('#california').hide();
+    $('#arkansas').show();
+    $('#colorado').hide();
+    $('#montana').hide();
+    $('#oklahoma').hide();
+});
+
+$('#show-colorado').click(function () {
+    $('#utah').hide();
+    $('#nevada').hide();
+    $('#oregon').hide();
+    $('#arizona').hide();
+    $('#california').hide();
+    $('#arkansas').hide();
+    $('#colorado').show();
+    $('#montana').hide();
+    $('#oklahoma').hide();
+});
+
+$('#show-montana').click(function () {
+    $('#utah').hide();
+    $('#nevada').hide();
+    $('#oregon').hide();
+    $('#arizona').hide();
+    $('#california').hide();
+    $('#arkansas').hide();
+    $('#colorado').hide();
+    $('#montana').show();
+    $('#oklahoma').hide();
+});
+
+$('#show-oklahoma').click(function () {
+    $('#utah').hide();
+    $('#nevada').hide();
+    $('#oregon').hide();
+    $('#arizona').hide();
+    $('#california').hide();
+    $('#arkansas').hide();
+    $('#colorado').hide();
+    $('#montana').hide();
+    $('#oklahoma').show();
+});
+
+let caMap, nvMap, arMap, orMap, utMap, arMap, coMap, moMap, okMap;
 
 function initMap() {
   caMap = new google.maps.Map(document.getElementById("caMap"), {
@@ -74,6 +142,22 @@ function initMap() {
     zoom: 7,
   });
   utMap = new google.maps.Map(document.getElementById("utMap"), {
+    center: { lat: 11.0967, lng: -117.179 },
+    zoom: 7,
+  });
+  arMap = new google.maps.Map(document.getElementById("arMap"), {
+    center: { lat: 11.0967, lng: -117.179 },
+    zoom: 7,
+  });
+  coMap = new google.maps.Map(document.getElementById("coMap"), {
+    center: { lat: 11.0967, lng: -117.179 },
+    zoom: 7,
+  });
+  moMap = new google.maps.Map(document.getElementById("moMap"), {
+    center: { lat: 11.0967, lng: -117.179 },
+    zoom: 7,
+  });
+  okMap = new google.maps.Map(document.getElementById("okMap"), {
     center: { lat: 11.0967, lng: -117.179 },
     zoom: 7,
   });
